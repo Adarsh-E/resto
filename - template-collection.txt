@@ -1,0 +1,27 @@
+- template-collection
+  - templates
+    - restaurant-template
+      - client (React frontend)
+        - src
+          - components
+            - Menu.js
+            - ReservationForm.js
+            - Gallery.js
+            - LocationMap.js
+          - App.js
+          - index.js
+      - server (Node.js and Express backend)
+        - routes
+          - api.js
+        - controllers
+          - ReservationController.js
+        - models
+          - Reservation.js
+        - utils
+          - EmailService.js
+        - index.js
+  - shared-components
+    - Navbar.js
+    - Footer.js
+  - package.json
+  - README.md
